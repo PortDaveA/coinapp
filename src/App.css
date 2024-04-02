@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0e0e31;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+
+
+.choose {
+  margin-top: 45px;
+ 
+}
+
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1E1E4C;
+  color: #ffffff;
+}
+
+.coin-input::placeholder{
+  color: #e2e2e2;
+}
