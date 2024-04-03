@@ -48,9 +48,10 @@ const App: React.FC = () => {
           <form>
             <input
               type="text"
-              className="pl-4 w-72 h-12 border-none rounded bg-indigo-900 text-white"
+              className="pl-4 w-72 h-12 border-none rounded bg-indigo-900"
               placeholder="Search here..."
               onChange={handleChange}
+              style={{ color: 'black' }}
             />
           </form>
         </div>
