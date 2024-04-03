@@ -1,6 +1,9 @@
 {
   "name": "coinapp1",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "type": "commonjs",
   "homepage": "http://portdavea.github.io/coinapp1",
